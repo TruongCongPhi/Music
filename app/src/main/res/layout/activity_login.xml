@@ -83,22 +83,17 @@
             android:drawableLeft="@drawable/ic_facebook"
 
             />
+
         <Button
             android:id="@+id/btn_login"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Đăng nhập"
-            android:textStyle="bold"
-            android:textSize="@dimen/_16sp"
-            android:backgroundTint="@color/black"
             android:layout_gravity="center"
+            android:backgroundTint="@color/black"
+            android:text="Đăng nhập"
+            android:textSize="@dimen/_16sp"
+            android:textStyle="bold"
             ></Button>
-
-
-
-
-
-
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
